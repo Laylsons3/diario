@@ -21,7 +21,9 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="w-full max-w-xs justify-center">Diário de bordo</h1>
+      <h1 className="w-full max-w-xs justify-center font-medium">
+        Diário de bordo
+      </h1>
       <form
         onClick={handleSubmit(submit)}
         className="flex p-4 bg-zinc-700 w-full max-w-xs flex-col gap-y-2"
