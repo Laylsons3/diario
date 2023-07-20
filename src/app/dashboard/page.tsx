@@ -1,8 +1,7 @@
-export default function Page({ children }: { children: React.ReactNode }) {
+export default function Page() {
   return (
     <div>
       <h1>Diário</h1>
-      {children}
     </div>
   );
 }
