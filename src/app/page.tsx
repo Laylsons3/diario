@@ -26,7 +26,7 @@ export default function Home() {
       </h1>
       <form
         onClick={handleSubmit(submit)}
-        className="flex p-4 bg-zinc-700 w-full max-w-xs flex-col gap-y-2"
+        className="flex p-4 bg-zinc-700 w-full max-w-xs flex-col gap-y-1"
       >
         <div>
           <label className="flex flex-col w-full">
